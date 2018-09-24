@@ -1,0 +1,44 @@
+html{
+	font-family: "Muli","游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", sans-serif;
+	font-size: 10px;
+}
+.global-wrapper{
+	width: 640px;
+	margin: 48px auto;
+}
+.basic-ttl {
+	font-weight: bold;
+	letter-spacing: 0.08em;
+	font-size: 2.4rem;
+	line-height: 1.2;
+	margin: 0 auto 24px;
+}
+.basic-ttl:after {
+	content: '';
+	display: block;
+	width: 24px;
+	height: 2px;
+	background-color: #333333;
+	margin-top: 24px;
+}
+.image-wrapper{
+	text-align: center;	
+}
+.image-wrapper img{
+	border: 1px solid #E3E3E3;
+}
+.update{
+	margin: 64px auto;
+}
+.credit-title{
+	font-size: 1.6rem;
+}
+
+p {
+	letter-spacing: 0.01em;
+	font-size: 1.4rem;
+	line-height: 2;
+}
+ul,ol,dl{
+	font-size: 1.4rem;
+}
